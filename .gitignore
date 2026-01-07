@@ -1,0 +1,50 @@
+# --- Python Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Data and Models (Crucial for Prediction Projects) ---
+# We ignore these because they are usually too large for GitHub
+*.csv
+*.xlsx
+*.json
+# Ignore trained model files
+*.pkl
+*.h5
+*.joblib
+*.npy
+*.pth
+
+# --- Environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- IDEs and OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
