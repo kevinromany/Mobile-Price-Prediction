@@ -73,3 +73,34 @@ From a business perspective, understanding which features drive the target varia
 This project compared several machine learning models to predict mobile phone price ranges. **Logistic Regression** achieved the highest accuracy (**97.7%**), while SVM and XGBoost also performed well, and KNN lagged behind. Classical models like SVM and Logistic Regression offer faster training times and lower computational requirements compared to more complex models like XGBoost. Hyperparameter tuning improved performance across models, particularly for SVM and Logistic Regression. Feature analysis highlighted **RAM, battery power, and screen resolution** as key drivers, providing actionable insights for business decisions.
 
 ---
+
+### Future Scope
+The Cellphone Price Prediction project can be extended in several ways to enhance its utility and accuracy. Advanced feature engineering, such as combining screen resolution and display size, could improve model performance. Incorporating additional datasets with brand, user ratings, and market trends may allow for more precise price predictions. Deploying the best model as a **real-time web or mobile application** can help consumers and retailers make informed decisions. Finally, exploring deep learning models or ensemble techniques could further increase predictive accuracy and robustness.
+
+---
+
+## Recommendations for Customers
+Based on the analysis and price range predictions, customers can make informed choices when buying a mobile phone:
+
+1. **Low-cost phones (Class 0)** – Suitable for users needing basic features, such as calling, messaging, and light apps.
+2. **Medium-cost phones (Class 1)** – Ideal for everyday users who want better performance, moderate RAM, and decent cameras.
+3. **High-cost phones (Class 2)** – Recommended for users who use heavy apps, multitasking, and high-quality media.
+4. **Premium/Very High-cost phones (Class 3)** – Best for power users, gamers, and professionals requiring top-notch performance, camera, and display quality.
+
+These insights help customers select a phone that balances **performance and budget**, while manufacturers and retailers can target products to the right customer segment.
+
+---
+
+# Challenges Faced and Techniques Used
+
+| **Challenge**                                   | **Description**                                                                                       | **Technique Used**                                                                                 |
+|-------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| Imbalanced Features                             | Some features had widely varying ranges, affecting model performance.                                 | Applied **StandardScaler** to standardize features for models sensitive to scaling like SVM.     |
+| High Dimensionality                             | 21 features with some correlations could impact model efficiency.                                     | Conducted **correlation analysis** and focused on top correlated features for feature selection. |
+| Model Selection                                 | Choosing the best-performing model among multiple classifiers.                                        | Trained and evaluated **SVM, Logistic Regression, XGBoost, Decision Tree, and KNN**.            |
+| Low KNN Accuracy                                | KNN performed poorly due to high-dimensional data and feature scaling issues.                         | Applied **feature scaling** and experimented with different `k` values, but switched to stronger models. |
+| Hyperparameter Tuning                            | Default model parameters did not yield the best results.                                             | Used **GridSearchCV** and manual tuning for SVM and XGBoost to improve accuracy.                  |
+| Outliers in Features                             | Outliers in features like RAM and battery power could skew predictions.                               | Performed **EDA with boxplots** and verified model robustness; tree-based models handled outliers better. |
+| Balanced Target Variable                         | Needed to ensure models learn all classes equally.                                                    | Used **stratified train-test split** to preserve class distribution in training and testing sets. |
+| Interpretation and Comparison of Multiple Models | Difficulty in comparing models across multiple metrics.                                              | Created **comparison tables, line graphs, and confusion matrices** for easy visualization.       |
+
